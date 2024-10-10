@@ -30,7 +30,7 @@ export function DeleteDialog({
         <DialogHeader>
           <DialogTitle>Delete Event</DialogTitle>
           <DialogDescription>
-            Are you sure you want to delete the event "{eventTitle}"?
+            Are you sure you want to delete the event &apos;{eventTitle}&apos;?
           </DialogDescription>
         </DialogHeader>
 

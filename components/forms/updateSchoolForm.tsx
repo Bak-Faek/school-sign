@@ -129,7 +129,7 @@ export default function UpdateSchoolForm() {
           Update form
         </CardTitle>
         <CardDescription className="text-center">
-        Please fill out the form to update school's informations.
+        Please fill out the form to update school&apos;s informations.
         </CardDescription>
       </CardHeader>
       <CardContent>

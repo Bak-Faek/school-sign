@@ -115,7 +115,7 @@ export default function UpdateTeacherForm() {
           Update form
         </CardTitle>
         <CardDescription className="text-center">
-          Please fill out the form to update teacher's informations.
+          Please fill out the form to update teacher&apos;s informations.
         </CardDescription>
         </CardHeader>
         <CardContent>

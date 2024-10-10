@@ -116,7 +116,7 @@ export default function UpdateStudentForm() {
           Update form
         </CardTitle>
         <CardDescription className="text-center">
-        Please fill out the form to update student's informations.
+        Please fill out the form to update student&apos;s informations.
         </CardDescription>
         </CardHeader>
         <CardContent>

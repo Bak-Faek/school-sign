@@ -85,7 +85,11 @@ async function handlePost(req: NextApiRequest, res: NextApiResponse) {
 
     // Check for Prisma constraint violations (e.g., duplicate email)
     if (error instanceof Prisma.PrismaClientKnownRequestError) {
-      if (error.code === "P2002" && error.meta?.target?.includes("email")) {
+      if (
+        error.code === "P2002" &&
+        Array.isArray(error.meta?.target) &&
+        error.meta?.target.includes("email")
+      ) {
         return res.status(409).json({ error: "Email already in use" });
       }
     }

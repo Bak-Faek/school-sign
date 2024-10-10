@@ -294,7 +294,7 @@ export default function AttendanceSheet() {
         <SelectTrigger className="w-[180px]">
           <SelectValue placeholder="Select a class" />
         </SelectTrigger>
-        <SelectContent>
+        {/* <SelectContent>
           <SelectGroup>
             {classes.map((classItem) => (
               <SelectItem key={classItem.id} value={classItem.id}>
@@ -302,7 +302,7 @@ export default function AttendanceSheet() {
               </SelectItem>
             ))}
           </SelectGroup>
-        </SelectContent>
+        </SelectContent> */}
       </Select>
       {students
         .filter((student) => student.role === "STUDENT")
